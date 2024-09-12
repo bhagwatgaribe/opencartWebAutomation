@@ -9,7 +9,7 @@ import pageObjects.MyAccountPage;
 import testBase.BaseClass;
 import utilities.DataProviders;
 
-public class TC003_LoginDDT extends BaseClass {
+public class TC_003_LoginDDT extends BaseClass {
 
 	@Test(dataProvider = "LoginData", dataProviderClass = DataProviders.class)
 	public void verify_LoginDDT(String email, String pwd, String exp) {
