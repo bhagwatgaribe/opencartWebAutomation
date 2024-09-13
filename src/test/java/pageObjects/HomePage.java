@@ -26,6 +26,9 @@ public class HomePage extends BasePage {
 	
 	@FindBy(xpath = "//button[@class='btn btn-default btn-lg']")
 	WebElement btnSearch;
+	
+	@FindBy(xpath = "//a[normalize-space()='Tablets']")
+	WebElement lnkTablet;
 
 	public void clickMyAccount() {
 		lnkMyAccount.click();
@@ -45,5 +48,9 @@ public class HomePage extends BasePage {
 	
 	public void clickSearch() {
 		btnSearch.click();
+	}
+	
+	public String checkTabletMenu() {
+		return (lnkTablet.getText());
 	}
 }
