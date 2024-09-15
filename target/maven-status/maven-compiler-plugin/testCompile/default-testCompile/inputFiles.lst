@@ -1,6 +1,7 @@
 D:\Automation_Projects\OpencartWebAutomation\src\test\java\testCases\TC_002_LoginTest.java
 D:\Automation_Projects\OpencartWebAutomation\src\test\java\testCases\TC_003_LoginDDT.java
 D:\Automation_Projects\OpencartWebAutomation\src\test\java\utilities\ExcelUtility.java
+D:\Automation_Projects\OpencartWebAutomation\src\test\java\testCases\TC_005_TabletMenuTest.java
 D:\Automation_Projects\OpencartWebAutomation\src\test\java\pageObjects\ProductSearchPage.java
 D:\Automation_Projects\OpencartWebAutomation\src\test\java\testCases\TC_004_ProductSearchTest.java
 D:\Automation_Projects\OpencartWebAutomation\src\test\java\testBase\BaseClass.java
