@@ -356,3 +356,101 @@
 12:13:28.072 [main] INFO  testCases.TC_004_ProductSearchTest - Clicked on search button
 12:13:28.073 [main] INFO  testCases.TC_004_ProductSearchTest - Validating product is available or not
 12:13:31.164 [main] INFO  testCases.TC_005_TabletMenuTest - *** Starting TC_005_TabletMenuTest ***
+18:42:03.661 [main] DEBUG org.testng.TestNG - suiteXmlPath: "D:\Automation_Projects\OpencartWebAutomation\testng.xml"
+18:42:12.728 [main] INFO  testCases.TC_001_AccountRegistrationTest - *** Starting TC001_AccountRegistrationTest ***
+18:42:13.005 [main] INFO  testCases.TC_001_AccountRegistrationTest - Clicked on MyAccount Link
+18:42:14.563 [main] INFO  testCases.TC_001_AccountRegistrationTest - Clicked on Register Link
+18:42:14.563 [main] INFO  testCases.TC_001_AccountRegistrationTest - Providing customer details
+18:42:19.695 [main] INFO  testCases.TC_001_AccountRegistrationTest - Validating expected message
+18:42:26.991 [main] INFO  testCases.TC_002_LoginTest - *** Starting TC002_LoginTest ***
+18:42:27.766 [main] INFO  testCases.TC_002_LoginTest - Clicked on My Account
+18:42:28.705 [main] INFO  testCases.TC_002_LoginTest - Clicked on Login
+18:42:28.712 [main] INFO  testCases.TC_002_LoginTest - Providing login details
+18:42:30.319 [main] INFO  testCases.TC_002_LoginTest - Clicked on Login button
+18:42:30.323 [main] INFO  testCases.TC_002_LoginTest - Validating My Account page is exists or not
+18:42:37.303 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+18:42:37.313 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+18:42:37.320 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+18:42:39.444 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+18:42:39.448 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+18:42:39.453 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+18:42:39.550 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+18:42:39.553 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+18:42:39.556 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+18:42:39.670 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+18:42:39.673 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+18:42:39.680 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+18:42:39.979 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+18:42:39.984 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+18:42:39.986 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+18:42:40.212 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+18:42:40.217 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+18:42:40.258 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+18:42:40.457 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+18:42:40.469 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+18:42:40.472 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+18:42:40.665 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+18:42:40.667 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+18:42:40.669 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+18:42:40.752 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+18:42:40.753 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+18:42:40.755 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+18:42:40.804 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+18:42:40.806 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+18:42:40.808 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+18:42:40.858 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+18:42:40.860 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+18:42:40.864 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+18:42:40.905 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+18:42:40.907 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+18:42:40.908 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+18:42:40.958 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+18:42:40.960 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+18:42:40.966 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+18:42:41.009 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+18:42:41.012 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+18:42:41.015 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+18:42:41.073 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+18:42:41.075 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+18:42:41.077 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+18:42:41.136 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+18:42:41.138 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+18:42:41.139 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+18:42:41.194 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+18:42:41.199 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+18:42:41.201 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+18:42:41.244 [main] INFO  testCases.TC_003_LoginDDT - *** Starting TC003_LoginDDT ***
+18:42:42.103 [main] INFO  testCases.TC_003_LoginDDT - Clicked on My Account
+18:42:43.109 [main] INFO  testCases.TC_003_LoginDDT - Clicked on Login
+18:42:43.110 [main] INFO  testCases.TC_003_LoginDDT - Providing login details
+18:42:45.138 [main] INFO  testCases.TC_003_LoginDDT - Clicked on Login button
+18:42:45.141 [main] INFO  testCases.TC_003_LoginDDT - Validating My Account page is exists or not
+18:42:46.525 [main] INFO  testCases.TC_003_LoginDDT - *** Starting TC003_LoginDDT ***
+18:42:47.135 [main] INFO  testCases.TC_003_LoginDDT - Clicked on My Account
+18:42:49.141 [main] INFO  testCases.TC_003_LoginDDT - Clicked on Login
+18:42:49.143 [main] INFO  testCases.TC_003_LoginDDT - Providing login details
+18:42:51.334 [main] INFO  testCases.TC_003_LoginDDT - Clicked on Login button
+18:42:51.335 [main] INFO  testCases.TC_003_LoginDDT - Validating My Account page is exists or not
+18:43:01.401 [main] INFO  testCases.TC_003_LoginDDT - *** Starting TC003_LoginDDT ***
+18:43:01.602 [main] INFO  testCases.TC_003_LoginDDT - Clicked on My Account
+18:43:02.403 [main] INFO  testCases.TC_003_LoginDDT - Clicked on Login
+18:43:02.405 [main] INFO  testCases.TC_003_LoginDDT - Providing login details
+18:43:03.551 [main] INFO  testCases.TC_003_LoginDDT - Clicked on Login button
+18:43:03.551 [main] INFO  testCases.TC_003_LoginDDT - Validating My Account page is exists or not
+18:43:13.587 [main] INFO  testCases.TC_003_LoginDDT - *** Starting TC003_LoginDDT ***
+18:43:13.722 [main] INFO  testCases.TC_003_LoginDDT - Clicked on My Account
+18:43:14.515 [main] INFO  testCases.TC_003_LoginDDT - Clicked on Login
+18:43:14.518 [main] INFO  testCases.TC_003_LoginDDT - Providing login details
+18:43:15.906 [main] INFO  testCases.TC_003_LoginDDT - Clicked on Login button
+18:43:15.908 [main] INFO  testCases.TC_003_LoginDDT - Validating My Account page is exists or not
+18:43:25.983 [main] INFO  testCases.TC_003_LoginDDT - *** Starting TC003_LoginDDT ***
+18:43:26.110 [main] INFO  testCases.TC_003_LoginDDT - Clicked on My Account
+18:43:26.834 [main] INFO  testCases.TC_003_LoginDDT - Clicked on Login
+18:43:26.834 [main] INFO  testCases.TC_003_LoginDDT - Providing login details
+18:43:28.186 [main] INFO  testCases.TC_003_LoginDDT - Clicked on Login button
+18:43:28.188 [main] INFO  testCases.TC_003_LoginDDT - Validating My Account page is exists or not
+18:43:43.806 [main] INFO  testCases.TC_004_ProductSearchTest - *** Starting TC_004_ProductSearchTest ***
+18:43:44.041 [main] INFO  testCases.TC_004_ProductSearchTest - Entered product name for searching
+18:43:45.432 [main] INFO  testCases.TC_004_ProductSearchTest - Clicked on search button
+18:43:45.433 [main] INFO  testCases.TC_004_ProductSearchTest - Validating product is available or not
+18:43:51.209 [main] INFO  testCases.TC_005_TabletMenuTest - *** Starting TC_005_TabletMenuTest ***
