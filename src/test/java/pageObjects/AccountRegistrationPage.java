@@ -34,7 +34,7 @@ public class AccountRegistrationPage extends BasePage {
 	@FindBy(xpath = "//input[@name='agree']")
 	WebElement chkPolicy;
 
-	@FindBy(xpath = "//input[@value='Continue']")
+	@FindBy(xpath = "//button[normalize-space()='Continue']")
 	WebElement btnContinue;
 
 	@FindBy(xpath = "//h1[text()='Your Account Has Been Created!']")

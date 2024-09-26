@@ -35,6 +35,7 @@ public class TC_003_LoginDDT extends BaseClass {
 
 			if (exp.equalsIgnoreCase("Valid")) {
 				if (targetpage == true) {
+					hp.clickMyAccount();
 					map.clickLogout();
 					Assert.assertTrue(true);
 				} else {

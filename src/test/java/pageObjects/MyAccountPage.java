@@ -13,7 +13,7 @@ public class MyAccountPage extends BasePage{
 	@FindBy(xpath = "//h2[text()='My Account']")
 	WebElement msgHeading;
 	
-	@FindBy(xpath = "//div[@class='list-group']//a[text()='Logout']")
+	@FindBy(xpath = "//a[@class='dropdown-item'][normalize-space()='Logout']")
 	WebElement lnkLogout;
 	
 	public boolean isMyAccountPageExists() {
