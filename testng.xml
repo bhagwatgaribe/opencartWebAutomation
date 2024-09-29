@@ -17,6 +17,7 @@
 			<class name="testCases.TC_003_LoginDDT" />
 			<class name="testCases.TC_004_ProductSearchTest" />
 			<class name="testCases.TC_005_TabletMenuTest" />
+			<class name="testCases.TC_006_LogoTest" />
 		</classes>
 	</test> <!-- Test -->
 </suite> <!-- Suite -->

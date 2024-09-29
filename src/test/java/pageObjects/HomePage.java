@@ -17,18 +17,21 @@ public class HomePage extends BasePage {
 
 	@FindBy(xpath = "//a[normalize-space()='Register']")
 	WebElement lnkRegister;
-	
+
 	@FindBy(xpath = "//a[normalize-space()='Login']")
 	WebElement lnkLogin;
-	
+
 	@FindBy(xpath = "//input[@name='search']")
 	WebElement txtSearchBox;
-	
+
 	@FindBy(xpath = "//button[@class='btn btn-default btn-lg']")
 	WebElement btnSearch;
-	
+
 	@FindBy(xpath = "//a[normalize-space()='Tablets']")
 	WebElement lnkTablet;
+
+	@FindBy(xpath = "//img[@class='img-fluid']")
+	WebElement logo;
 
 	public void clickMyAccount() {
 		lnkMyAccount.click();
@@ -37,20 +40,24 @@ public class HomePage extends BasePage {
 	public void clickRegister() {
 		lnkRegister.click();
 	}
-	
+
 	public void clickLogin() {
 		lnkLogin.click();
 	}
-	
+
 	public void setSearchProduct(String product) {
 		txtSearchBox.sendKeys(product);
 	}
-	
+
 	public void clickSearch() {
 		btnSearch.click();
 	}
-	
+
 	public String checkTabletMenu() {
 		return (lnkTablet.getText());
+	}
+
+	public boolean checkLogoIsPresent() {
+		return logo.isDisplayed();
 	}
 }
