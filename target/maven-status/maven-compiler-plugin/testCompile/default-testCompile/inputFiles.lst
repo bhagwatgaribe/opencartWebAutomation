@@ -7,9 +7,11 @@ D:\Automation_Projects\OpencartWebAutomation\src\test\java\testCases\TC_004_Prod
 D:\Automation_Projects\OpencartWebAutomation\src\test\java\testBase\BaseClass.java
 D:\Automation_Projects\OpencartWebAutomation\src\test\java\utilities\DataProviders.java
 D:\Automation_Projects\OpencartWebAutomation\src\test\java\pageObjects\HomePage.java
+D:\Automation_Projects\OpencartWebAutomation\src\test\java\testCases\TC_006_LogoTest.java
 D:\Automation_Projects\OpencartWebAutomation\src\test\java\pageObjects\AccountRegistrationPage.java
 D:\Automation_Projects\OpencartWebAutomation\src\test\java\pageObjects\BasePage.java
 D:\Automation_Projects\OpencartWebAutomation\src\test\java\utilities\ExtentReportManager.java
 D:\Automation_Projects\OpencartWebAutomation\src\test\java\pageObjects\LoginPage.java
 D:\Automation_Projects\OpencartWebAutomation\src\test\java\testCases\TC_001_AccountRegistrationTest.java
 D:\Automation_Projects\OpencartWebAutomation\src\test\java\pageObjects\MyAccountPage.java
+D:\Automation_Projects\OpencartWebAutomation\src\test\java\testCases\TC_007_CheckoutOptionTest.java

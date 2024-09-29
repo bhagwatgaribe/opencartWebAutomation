@@ -8,27 +8,6 @@
     <parameter name="os" value="windows"/>
     <parameter name="browser" value="chrome"/>
     <classes>
-      <class name="testCases.TC_002_LoginTest">
-        <methods>
-          <include name="verify_Login"/>
-          <include name="tearDown"/>
-          <include name="setup"/>
-        </methods>
-      </class> <!-- testCases.TC_002_LoginTest -->
-      <class name="testCases.TC_001_AccountRegistrationTest">
-        <methods>
-          <include name="tearDown"/>
-          <include name="setup"/>
-          <include name="verifyAccountRegistration"/>
-        </methods>
-      </class> <!-- testCases.TC_001_AccountRegistrationTest -->
-      <class name="testCases.TC_003_LoginDDT">
-        <methods>
-          <include name="verify_LoginDDT" invocation-numbers="0 1 2 3 4"/>
-          <include name="tearDown"/>
-          <include name="setup"/>
-        </methods>
-      </class> <!-- testCases.TC_003_LoginDDT -->
       <class name="testCases.TC_004_ProductSearchTest">
         <methods>
           <include name="tearDown"/>
@@ -36,13 +15,6 @@
           <include name="VerifyProductSearch"/>
         </methods>
       </class> <!-- testCases.TC_004_ProductSearchTest -->
-      <class name="testCases.TC_005_TabletMenuTest">
-        <methods>
-          <include name="tearDown"/>
-          <include name="VerifyTabletMenu"/>
-          <include name="setup"/>
-        </methods>
-      </class> <!-- testCases.TC_005_TabletMenuTest -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->
