@@ -2,19 +2,21 @@ package testCases;
 
 import org.testng.Assert;
 import org.testng.annotations.Test;
+
 import pageObjects.HomePage;
 import testBase.BaseClass;
 
-public class TC_006_LogoTest extends BaseClass {
-
+public class TC_008_CurrencyDropdownTest extends BaseClass{
+	
 	@Test(groups = {"Regression"})
-	public void verifyLogoTest() {
-		logger.info("*** Starting TC_006_LogoTest ***");
+	public void validateCurrencyDropdown() {
 		try {
-			HomePage hp = new HomePage(driver);
+			logger.info("*** Starting TC_008_CurrencyDropdownTest ***");
 			
-			boolean logo = hp.checkLogoIsPresent();
-			Assert.assertTrue(logo);			
+			HomePage hp = new HomePage(driver);
+			String text = hp.checkCurrencyDropdown();
+			Assert.assertEquals(text, "Currency");
+			
 		} catch (Exception e) {
 			Assert.fail();
 		}

@@ -7,7 +7,7 @@ import testBase.BaseClass;
 
 public class TC_005_TabletMenuTest extends BaseClass {
 
-	@Test
+	@Test(groups = {"Regression"})
 	public void VerifyTabletMenu() {
 		logger.info("*** Starting TC_005_TabletMenuTest ***");
 		try {

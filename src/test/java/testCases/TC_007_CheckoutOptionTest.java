@@ -8,7 +8,7 @@ import testBase.BaseClass;
 
 public class TC_007_CheckoutOptionTest extends BaseClass{
 
-	@Test
+	@Test(groups = {"Regression"})
 	public void validateCheckOutOption() {
 		try {
 			logger.info("*** Starting TC_007_CheckoutOptionTest ***");

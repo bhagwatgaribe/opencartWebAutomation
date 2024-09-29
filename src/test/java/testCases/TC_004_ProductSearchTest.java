@@ -9,7 +9,7 @@ import testBase.BaseClass;
 
 public class TC_004_ProductSearchTest extends BaseClass{
 
-	@Test
+	@Test(groups = {"Regression"})
 	public void VerifyProductSearch() {
 		logger.info("*** Starting TC_004_ProductSearchTest ***");
 		try {

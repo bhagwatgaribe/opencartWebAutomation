@@ -13,5 +13,6 @@ D:\Automation_Projects\OpencartWebAutomation\src\test\java\pageObjects\BasePage.
 D:\Automation_Projects\OpencartWebAutomation\src\test\java\utilities\ExtentReportManager.java
 D:\Automation_Projects\OpencartWebAutomation\src\test\java\pageObjects\LoginPage.java
 D:\Automation_Projects\OpencartWebAutomation\src\test\java\testCases\TC_001_AccountRegistrationTest.java
+D:\Automation_Projects\OpencartWebAutomation\src\test\java\testCases\TC_008_CurrencyDropdownTest.java
 D:\Automation_Projects\OpencartWebAutomation\src\test\java\pageObjects\MyAccountPage.java
 D:\Automation_Projects\OpencartWebAutomation\src\test\java\testCases\TC_007_CheckoutOptionTest.java

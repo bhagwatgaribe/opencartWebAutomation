@@ -3,6 +3,15 @@
 
 <suite name="Suite">
 
+<test name ="Regression Test">
+	<groups>
+		<run>
+			<include name ="Regression"> </include>
+			<include name ="Sanity"> </include>
+		</run>
+	</groups>
+</test>
+	
 
 	<listeners>
 		<listener class-name="utilities.ExtentReportManager" />
@@ -19,6 +28,7 @@
 			<class name="testCases.TC_005_TabletMenuTest" />
 			<class name="testCases.TC_006_LogoTest" />
 			<class name="testCases.TC_007_CheckoutOptionTest" />
+			<class name="testCases.TC_008_CurrencyDropdownTest" />
 		</classes>
 	</test> <!-- Test -->
 </suite> <!-- Suite -->
