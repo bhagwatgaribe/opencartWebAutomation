@@ -18,6 +18,7 @@
 			<class name="testCases.TC_004_ProductSearchTest" />
 			<class name="testCases.TC_005_TabletMenuTest" />
 			<class name="testCases.TC_006_LogoTest" />
+			<class name="testCases.TC_007_CheckoutOptionTest" />
 		</classes>
 	</test> <!-- Test -->
 </suite> <!-- Suite -->

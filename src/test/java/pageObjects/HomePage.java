@@ -32,6 +32,9 @@ public class HomePage extends BasePage {
 
 	@FindBy(xpath = "//img[@class='img-fluid']")
 	WebElement logo;
+	
+	@FindBy(xpath = "//span[contains(text(),'Checkout')]")
+	WebElement lnkCheckout;
 
 	public void clickMyAccount() {
 		lnkMyAccount.click();
@@ -58,6 +61,10 @@ public class HomePage extends BasePage {
 	}
 
 	public boolean checkLogoIsPresent() {
+		return logo.isDisplayed();
+	}
+	
+	public boolean checkCheckoutOptionIsPresent() {
 		return logo.isDisplayed();
 	}
 }
