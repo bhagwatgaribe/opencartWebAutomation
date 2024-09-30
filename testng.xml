@@ -27,8 +27,8 @@
 			<class name="testCases.TC_004_ProductSearchTest" />
 			<class name="testCases.TC_005_TabletMenuTest" />
 			<class name="testCases.TC_006_LogoTest" />
-			<class name="testCases.TC_007_CheckoutOptionTest" />
-			<class name="testCases.TC_008_CurrencyDropdownTest" />
+			<class name="testCases.TC_007_CurrencyDropdownTest" />
+			<class name="testCases.TC_008_CheckoutOptionTest" />
 		</classes>
 	</test> <!-- Test -->
 </suite> <!-- Suite -->
