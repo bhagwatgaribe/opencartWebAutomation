@@ -38,6 +38,10 @@ public class HomePage extends BasePage {
 
 	@FindBy(xpath = "//a[@class='dropdown-toggle']/child::span[contains(text(),'Currency')]")
 	WebElement dropdownCurrency;
+	
+	@FindBy(xpath = "//span[normalize-space()='Wish List (0)']")
+	WebElement lnkWishList;
+	
 
 	public void clickMyAccount() {
 		lnkMyAccount.click();
@@ -73,5 +77,9 @@ public class HomePage extends BasePage {
 
 	public String checkCurrencyDropdown() {
 		return dropdownCurrency.getText();
+	}
+	
+	public boolean checkWishListOption() {
+		return lnkWishList.isDisplayed();
 	}
 }
