@@ -3,21 +3,24 @@ package pageObjects;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class ProductSearchPage extends BasePage{
 
+	WebDriverWait wait;
 	public ProductSearchPage(WebDriver driver) {
 		super(driver);
 	}
 	
-	@FindBy(xpath = "//a[normalize-space()='MacBook']")
+	
+	@FindBy(xpath = "//a[normalize-space()='MacBook Pro']")
 	WebElement txtMackbook;
 	
-	public boolean isSearchedproductExists() {
+	public String isSearchedproductExists() {
 		try {
-			return (txtMackbook.isDisplayed());
+			return txtMackbook.getText();
 		} catch (Exception e) {
-			return false;
+			return null;
 		}		
 	}
 }

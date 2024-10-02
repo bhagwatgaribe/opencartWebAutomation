@@ -14,7 +14,7 @@ public class TC_004_ProductSearchTest extends BaseClass{
 		logger.info("*** Starting TC_004_ProductSearchTest ***");
 		try {
 			HomePage hp = new HomePage(driver);
-			hp.setSearchProduct("Macbook");
+			hp.setSearchProduct("MacBook Pro");
 			logger.info("Entered product name for searching");
 			
 			hp.clickSearch();
@@ -23,8 +23,8 @@ public class TC_004_ProductSearchTest extends BaseClass{
 			ProductSearchPage psp = new ProductSearchPage(driver);
 			
 			logger.info("Validating product is available or not");
-			boolean product = psp.isSearchedproductExists();
-			Assert.assertTrue(product);
+			String product = psp.isSearchedproductExists();
+			Assert.assertEquals(product,"MacBook Pro");
 			
 		} catch (Exception e) {
 			Assert.fail();

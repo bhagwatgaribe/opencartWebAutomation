@@ -29,6 +29,7 @@
 			<class name="testCases.TC_006_LogoTest" />
 			<class name="testCases.TC_007_CurrencyDropdownTest" />
 			<class name="testCases.TC_008_CheckoutOptionTest" />
+			<class name="testCases.TC_009_WishListOptionTest" />
 		</classes>
 	</test> <!-- Test -->
 </suite> <!-- Suite -->
