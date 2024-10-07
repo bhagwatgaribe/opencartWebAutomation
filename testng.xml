@@ -30,6 +30,7 @@
 			<class name="testCases.TC_007_CurrencyDropdownTest" />
 			<class name="testCases.TC_008_CheckoutOptionTest" />
 			<class name="testCases.TC_009_WishListOptionTest" />
+			<class name="testCases.TC_010_AllCurrencyOptionsTest" /> 
 		</classes>
 	</test> <!-- Test -->
 </suite> <!-- Suite -->

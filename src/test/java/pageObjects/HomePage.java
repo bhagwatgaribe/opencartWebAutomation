@@ -1,8 +1,13 @@
 package pageObjects;
 
+import java.util.ArrayList;
+import java.util.List;
+
+import org.openqa.selenium.NoSuchElementException;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.ui.Select;
 
 public class HomePage extends BasePage {
 
@@ -38,10 +43,9 @@ public class HomePage extends BasePage {
 
 	@FindBy(xpath = "//a[@class='dropdown-toggle']/child::span[contains(text(),'Currency')]")
 	WebElement dropdownCurrency;
-	
+
 	@FindBy(xpath = "//span[normalize-space()='Wish List (0)']")
 	WebElement lnkWishList;
-	
 
 	public void clickMyAccount() {
 		lnkMyAccount.click();
@@ -78,8 +82,25 @@ public class HomePage extends BasePage {
 	public String checkCurrencyDropdown() {
 		return dropdownCurrency.getText();
 	}
-	
+
 	public boolean checkWishListOption() {
 		return lnkWishList.isDisplayed();
+	}
+
+	public List<String> getAllCurrencyOptions() {
+		List<String> optionsTexts = new ArrayList();
+		try {
+			Select select = new Select(dropdownCurrency);
+			List<WebElement> options = select.getAllSelectedOptions();
+
+			for (WebElement option : options) {
+				optionsTexts.add(option.getText());
+			}
+		} catch (NoSuchElementException e) {
+			System.out.println("Dropdown element not found: " + e.getMessage());
+		} catch (Exception e) {
+			System.out.println("An unexpected error occurred while fetching dropdown options: " + e.getMessage());
+		}
+		return optionsTexts;
 	}
 }
