@@ -24,7 +24,7 @@ public class HomePage extends BasePage {
 	@FindBy(xpath = "//input[@name='search']")
 	WebElement txtSearchBox;
 
-	@FindBy(xpath = "//button[@class='btn btn-default btn-lg']")
+	@FindBy(xpath = "//button[@class='btn btn-light btn-lg']")
 	WebElement btnSearch;
 
 	@FindBy(xpath = "//a[normalize-space()='Tablets']")
