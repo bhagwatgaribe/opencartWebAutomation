@@ -8,6 +8,69 @@
     <parameter name="os" value="windows"/>
     <parameter name="browser" value="chrome"/>
     <classes>
+      <class name="testCases.TC_006_LogoTest">
+        <methods>
+          <include name="TC001_verifyLogoTest"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- testCases.TC_006_LogoTest -->
+      <class name="testCases.TC_001_AccountRegistrationTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setup"/>
+          <include name="verifyAccountRegistration"/>
+        </methods>
+      </class> <!-- testCases.TC_001_AccountRegistrationTest -->
+      <class name="testCases.TC_003_LoginDDT">
+        <methods>
+          <include name="verify_LoginDDT"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- testCases.TC_003_LoginDDT -->
+      <class name="testCases.TC_009_WishListOptionTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="verifyWishListOption"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- testCases.TC_009_WishListOptionTest -->
+      <class name="testCases.TC_008_CheckoutOptionTest">
+        <methods>
+          <include name="TC003_validateCheckOutOption"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- testCases.TC_008_CheckoutOptionTest -->
+      <class name="testCases.TC_010_AllCurrencyOptionsTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="validateCurrencyOptions"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- testCases.TC_010_AllCurrencyOptionsTest -->
+      <class name="testCases.TC_007_CurrencyDropdownTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setup"/>
+          <include name="TC002_validateCurrencyDropdown"/>
+        </methods>
+      </class> <!-- testCases.TC_007_CurrencyDropdownTest -->
+      <class name="testCases.TC_002_LoginTest">
+        <methods>
+          <include name="verify_Login"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- testCases.TC_002_LoginTest -->
+      <class name="testCases.TC_005_TabletMenuTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="VerifyTabletMenu"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- testCases.TC_005_TabletMenuTest -->
       <class name="testCases.TC_004_ProductSearchTest">
         <methods>
           <include name="tearDown"/>

@@ -6,4 +6,5 @@ pageObjects\AccountRegistrationPage.class
 pageObjects\LoginPage.class
 pageObjects\BasePage.class
 utilities\ExtentReportManager.class
+testCases\TC_010_AllCurrencyOptionsTest.class
 utilities\DataProviders.class
